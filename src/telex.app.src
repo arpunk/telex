@@ -1,0 +1,17 @@
+{application, 'telex',
+ [{description, "Telegram low-level API library for LFE"},
+  {vsn, "0.0.1"},
+  {registered, []},
+  {applications,
+   [kernel,
+    stdlib,
+    jsone,
+    hackney
+   ]},
+  {env, []},
+  {modules, []},
+
+  {maintainers, ["Ricardo Lanziano"]},
+  {licenses, ["MIT"]},
+  {links, [{"Github", "https://github.com/arpunk/telex"}]}
+ ]}.
