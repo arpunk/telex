@@ -1,10 +1,12 @@
 telex
 =====
 
-Telex exposes a very thin layer over the Telegram Bot API HTTP
-interface, it does not care about any data bindings over the interface
-and tries to abstract away only the boilerplate for building, sending
-and serializing the API requests.
+Telex exposes a very thin abstraction for dealing with all the
+boilerplate needed for interacting with the Telegram Bot API.
+
+It does not offer any kind of data abstractions over the API
+responses. This means you need to craft your payload according to the
+official Telegram API documentation.
 
 ## Installation
 ```Erlang
