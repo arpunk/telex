@@ -1,6 +1,6 @@
 {application, 'telex',
  [{description, "Telegram low-level API library for LFE"},
-  {vsn, "0.0.1"},
+  {vsn, "0.0.2"},
   {registered, []},
   {applications,
    [kernel,
